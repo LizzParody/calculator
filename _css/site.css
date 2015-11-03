@@ -1,0 +1,43 @@
+header {
+	position: fixed;
+	top: 0;
+	vertical-align: middle;
+	width: 100%;
+	background-color: rgb(27,45,94);
+	padding: 10px 0 5px 0;
+	text-align: center;
+	color: rgb(255,255,255);
+	text-shadow: 2px 2px 1px rgba(255,255,255,.5);
+	font: normal 28px 'League Gothic', Arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+.header-text{
+font-family: monospace;
+}
+
+
+
+h2{
+color: red;
+font-size: 23px;
+font-family: sans-serif;
+}
+body {background-color: #fff;
+background-image:
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+}
+p{
+font-weight: solid;
+font-size: 19px;
+}
+
+
+#NW { position:fixed; width:60%; height:33%%; top:10%;   left:0;  }
+#NE { position:fixed; width:40%; height:33%; top:10%;   left:50%;}
+#MW { position:fixed; width:60%; height:33%; top:39%; left:0;  }
+#ME { position:fixed; width:40%; height:33%; top:39%; left:50%;}
+#SW { position:fixed; width:60%; height:33%; top:69%; left:0;  }
+#SE { position:fixed; width:40%; height:33%; top:69%; left:50%;}
